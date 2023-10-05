@@ -1,0 +1,30 @@
+@import url(styles.css);
+
+.sobrenos {
+    text-align: center;
+    margin: 3em;
+}
+
+.subtitulo_sobrenos{
+    margin-bottom: 1.5em;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.titulo_sobrenos{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 1em;
+    color: var(--cinza);
+}
+
+.texto_sobrenos{
+    font-weight: 400;
+    font-size: 20px;
+    padding-right: 16rem;
+    padding-left: 16rem;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 30px;
+}
+
