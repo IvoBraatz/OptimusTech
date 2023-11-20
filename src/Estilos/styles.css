@@ -1,3 +1,11 @@
+@import url(cabecalho.css);
+@import url(depoimentos.css);
+@import url(footer.css);
+@import url(metricas.css);
+@import url(navbar.css);
+@import url(normalize.css);
+@import url(vagas.css);
+
 :root {
     --text-color: #667085;
     --main-color: #8E2424;
