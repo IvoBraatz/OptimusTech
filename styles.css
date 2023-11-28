@@ -1,0 +1,402 @@
+@import url(reset.css);
+
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+
+body{
+  background: #F7FAFF;
+}
+
+/*cabecalho*/
+.sobrenos {
+    text-align: center;
+    margin: 3em;
+}
+
+.subtitulo_sobrenos{
+    margin-bottom: 1.5em;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.titulo_sobrenos{
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 1em;
+    color: var(--cinza);
+}
+
+.texto_sobrenos{
+    font-weight: 400;
+    font-size: 20px;
+    padding-right: 16rem;
+    padding-left: 16rem;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 30px;
+}
+
+/*navbar*/
+.navbar {
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    box-sizing: border-box; 
+}
+
+.navbar-head {
+    width: 100%;
+
+}
+.logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.nome-logo {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3A404E; 
+    margin-left: 10px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px, 32px, 0px, 32px;
+}
+
+.conteudo {
+    gap: 40px;
+}
+
+.botoes-navegacao {
+    color: #667085;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 28px;
+    text-decoration: none;
+}
+
+
+.button-entrar {
+    color: #667085;
+    text-decoration: none;
+    padding: 12px 24px;
+}
+
+.button-cadastrar {
+    background-color: #8E2424;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #8e2424;
+    gap: 4px;
+}
+
+/*depoimentos*/
+.depoimentos{
+    width: 1216px;
+    height: 280px;
+    padding: 64px;
+    border-radius: 16px;
+    gap: 32px;
+    margin: 0 auto;
+    background: #8E24240D;
+    margin-bottom: 3rem;
+}
+
+.subtitulo-depoimentos{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 20px;
+    color: var(--main-color);
+}
+
+.funcionario{
+    justify-content: center;
+    display: flex;
+    border-radius: 200px;
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.depoimento{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 44px;
+}
+
+.nome-funcionario{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 24px;
+    padding-top: 1rem;
+}
+
+.cargo-funcionario{
+    width: 100%;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--text-color);
+}
+
+/*metricas*/
+.container-metricas{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-metricas{
+    width: 80%;
+    height: 180px;
+    display: flex;
+}
+
+.conteudo-item{
+    width: 280px;
+    height: 168px;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-title {
+    width: 280px;
+    height: 72px;
+}
+
+.title-especial{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--main-color);
+}
+
+.conteudo-descricao{
+    width: 280px;
+    height: 28px;
+}
+
+.conteudo-texto {
+    width: 280px;
+    height: 48px;
+    margin-right: 1rem;
+    color: var(--text-color);
+    text-align: justify;
+}
+/*vagas*/
+.vagas{
+    width: 100%;
+    height: 700px;
+    padding: 96px, 0px, 96px, 0px;
+    gap: 64px;
+    margin-top: 10rem;
+
+}
+
+.container-talentos{
+    max-width: 1280px;
+    height: 602px;
+    margin: 0 auto;
+}
+
+.container-titulo{
+    border-radius: 16px;
+    background: #8E24240D;
+    width: 13rem;
+    height: 3rem;
+    margin-bottom: 1.5em;
+    color: var(--main-color);
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-vagas{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.vagas-descricao{
+    margin-top: 2rem;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.imagem-talentos{
+    margin-top: 3rem;
+    margin-left:2rem;
+    align-self: center;
+}
+
+.vagas-abertas-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vagas-abertas-desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .vaga {
+    max-width: 900px;
+    padding: 20px 4rem;
+    border-radius: 10px;
+    border: solid 1px var(--text-color);
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .vaga:hover{
+    background: #FFFFFF;
+  }
+  
+  .titulo-area {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: start;
+    margin-right: 16rem;
+  }
+  
+  .titulo-vaga {
+    width: 720px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    gap: 3rem;
+    text-align: start;
+    margin-right: 16rem;
+  }
+  
+  .informacoes {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    text-align: start;
+    margin-right: 16rem;
+  }
+
+  /*footer*/
+  .rodape{
+    padding-top: 6rem;
+    width: 90rem;
+    height: 26.875rem;
+    gap: 2rem;
+    margin: 0 auto;
+    background:  #F9FAFB;
+}
+.container-rodape{
+    width: 52rem;
+    height: 11.375rem;
+    padding: 0rem, 2rem, 0rem, 2rem;
+    gap: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.conteudo-rodape{
+    width: 48rem;
+    height: 11.375rem;
+    gap: 2.5rem;
+    margin: 0 auto;
+}
+.acompanhe{
+    text-align: center;
+    width: 48rem;
+    height: 2.75rem;
+    margin: 0 auto;
+    font-size: 2.2rem;
+    line-height: 2.75rem;
+    font-weight: 600;
+    
+}
+.seja{
+    text-align: center;
+    width: 48rem;
+    height: 1.875rem;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+    color: #667085;
+    margin-top: 1rem
+    
+}
+.area-email{
+    text-align: center;
+    width: 30.75rem;
+    height: 3rem;
+    gap: 1rem;
+    margin: 0 auto;
+
+    
+}
+.copy{
+    text-align: center;
+    width: 24.5625rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin-top: 3rem ;
+    color: #98A2B3;
+    ;
+}
+
+input[type="email"] {
+    width: 300px;
+    height: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    width: 116px;
+    height: 100%;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 8px;
+    background: var(--main-color);
+    color: #DEDFE0;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color: #FFFFFF;
+}
